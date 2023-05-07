@@ -1,0 +1,16 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /home/ubuntu/vhcrm_frontend
+hooks:
+  AfterInstall:
+    - location: scripts/start_server.sh
+      timeout: 1000
+permissions:
+  - object: /home/ubuntu
+    owner: ubuntu
+    group: ubuntu
+    type:
+      - directory
+      - file

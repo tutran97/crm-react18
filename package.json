@@ -1,0 +1,68 @@
+{
+  "name": "vhcrm-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@headlessui/react": "^1.7.11",
+    "@hookform/resolvers": "^3.0.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.2.0",
+    "axios-hooks": "^4.0.0",
+    "choices.js": "^10.2.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-flatpickr": "^3.10.13",
+    "react-hook-form": "^7.43.9",
+    "react-json-editor-ajrm": "^2.5.14",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.4.3",
+    "react-scripts": "5.0.1",
+    "redux": "^4.2.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.2",
+    "sass": "^1.56.1",
+    "sweetalert2": "^11.6.15",
+    "sweetalert2-react-content": "^5.0.7",
+    "use-react-router-breadcrumbs": "^4.0.1",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start:prod": "serve -s build -l 36909",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.29.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "latest",
+    "postcss": "^8.4.19",
+    "prettier": "^2.8.1",
+    "prop-types": "^15.8.1",
+    "tailwindcss": "^3.2.4"
+  }
+}
